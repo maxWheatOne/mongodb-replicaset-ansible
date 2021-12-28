@@ -1,0 +1,7 @@
+# Staging environment
+
+[mongoDBServers]
+localhost
+
+[platoServers]
+localhost

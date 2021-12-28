@@ -1,7 +1,7 @@
 ---
 
 - name: MongoDB Installation & Configuration
-  hosts: nodes
+  hosts: mongoDBServers
   gather_facts: false
   roles:
-    - { role: rhel7/mongodb }
+    - { role: mongodb }
